@@ -1,0 +1,105 @@
+.login{
+    position: relative;
+    height: 100%;
+    background: url("https://is3-ssl.mzstatic.com/image/thumb/Features124/v4/60/50/14/60501472-f621-7d29-1e0a-9de43597153a/source/1028x630fo.jpg") no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding: 10px 5px;
+}
+
+.login_btn{
+    position: fixed;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 1vw;
+    background-color: #e50914;
+    color: #fff;
+    font-weight: 600;
+    right: 20px;
+    top: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.loginScreen_gradient{
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.4) ;
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0,0)  60%,
+        rgba(0,0,0,0.8)  100%,
+
+    );
+}
+
+.login_body{
+    position: absolute;
+    display:  flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 30%;
+    text-align: center;
+    z-index: 1;
+    color: #fff;
+    padding: 20px;
+}
+
+.login_body h1{
+    font-size: 3.125rem;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.login_body h2{
+    font-size: 2rem;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+
+.login_body h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.login_emailInput{
+    margin: 20px;
+}
+.login_emailInput > form{
+    display: flex;
+}
+.login_emailInput > form > input{
+    padding: 15px 20px;
+    outline-width: 0;
+    width: 60%;
+    border: none;
+    color: #111;
+    max-width: 600px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.getStarted_btn{
+    padding: 15px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
